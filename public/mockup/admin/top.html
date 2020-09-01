@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!--top.html-->
+<html lang = "ja">
+<head>
+    <meta charset = "UTF-8">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h1>Contact's List</h1>
+    Search:
+    <form action = "./top.html">
+        Name (Ambiguous Search): <input><br>
+        Contact's Time: <input type = "date"> ~ <input type = "date"><br>
+        Reply Existence: <input type ="checkbox" name = "reply_flg[]"> Unreplied <input type = "checkbox" name = "reply_flg[]"> Replied <br>
+        <button>Search</button>
+    </form>
+    <table border = "1">
+        <tr>
+            <th>Contact's Time <a href = "top.html"> Up </a> <a href = "top.html"> Down </a>
+            <th>Name <a href = "top.html"> Up </a> <a href = "top.html"> Down </a>
+            <th>Reply Existence
+            <th>Contact's Text
+        </tr>
+        <tr>
+            <td>2020/05/25 11:00:00
+            <td>Yamada Tarou
+            <td>
+            <td>Contact...
+            <td><a href = "./inquiry_detail.html">Detail</a>
+        </tr>
+        <tr>
+            <td>2020/05/24 11:00:00
+            <td>Yamada Hanako   
+            <td>Replied
+            <td>Contact...
+            <td><a href = "./inquiry_detail.html">Detail</a>
+        </tr>
+        <tr>
+            <td>2020/05/24 10:00:00
+            <td>Yamada Hanako
+            <td>
+            <td>Contact...
+            <td><a href = "./inquiry_detail.html">Detail</a>
+        </tr>
+    </table>
+</body>
+</html>
